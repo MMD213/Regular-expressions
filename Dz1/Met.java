@@ -1,7 +1,7 @@
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
   public class Met {
-        void Cag() {
+        void Search() {
 
             Pattern pattern = Pattern.compile("(([0-1]\\d|2\\[0-4])\\:[0-5]\\d)");
             Matcher matcher = pattern.matcher("Завтрак в 09:00, ужин в 18:00, обед в 13:00, обед в 121:00");

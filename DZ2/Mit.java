@@ -6,11 +6,8 @@ public class Mit {
 
         Pattern pattern = Pattern.compile("(M\\w+)");
         Matcher matcher = pattern.matcher("Makarov Merculov Ivanov");
-        boolean found = matcher.matches();
         while (matcher.find()) {
             System.out.println(matcher.group());
         }
     }
 }
-
-
